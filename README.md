@@ -67,4 +67,4 @@ It'll start everything needed:
 * Prometheus
 
 The infrastructure looks like this:
-!(Prometheu's infrastructure)[images/prometheus_poc.jpg]
+![Prometheu's infrastructure](images/prometheus_poc.jpg)
