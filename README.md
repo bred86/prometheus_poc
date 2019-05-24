@@ -55,7 +55,7 @@ $ git clone git@github.com:bred86/prometheus_poc.git
 ```
 * run everything
 ```
-$ cd prometheus
+$ cd prometheus_poc
 $ docker-compose up
 ```
 * access it via `localhost:9090`
