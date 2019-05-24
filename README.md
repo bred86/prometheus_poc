@@ -37,7 +37,7 @@ Prometheus does everything that Cabot does, plus:
 
 ## Considerations
 * The transition should be invisible to the final user.
-* Instead of using and adapter to make Prometheus write/read from Graphite, the goal is to use (graphite_exporter)[https://github.com/prometheus/graphite_exporter] and (statsd_exporter)[https://github.com/prometheus/statsd_exporter] to export metrics into Prometheus
+* Instead of using and adapter to make Prometheus write/read from Graphite, the goal is to use [graphite_exporter](https://github.com/prometheus/graphite_exporter) and [statsd_exporter](https://github.com/prometheus/statsd_exporter) to export metrics into Prometheus
 * As this is just a PoC, I'll **not** configure Alertmanager and other softwares, just going to show some CollectD metrics using Prometheus.
 
 ## Plugins that I think is interesting:
@@ -45,7 +45,7 @@ Prometheus does everything that Cabot does, plus:
 * https://grafana.com/plugins/camptocamp-prometheus-alertmanager-datasource
 
 ## Alternatives considered
-(Sensu)[https://sensu.io/]
+[Sensu](https://sensu.io/)
 
 ## How to run:
 * install docker-compose
